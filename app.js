@@ -12,7 +12,7 @@ app.use(bodyParser.json());
 app.use('/api', serviceRoutes);
 
 // MongoDB connection
-const MONGO_URI = 'mongodb+srv://nahinkhanpattan:xmQpBX6gRQOef8Mf@simple-apii.mbrko.mongodb.net/?retryWrites=true&w=majority&appName=simple-apii';
+const MONGO_URI = 'mongodb://localhost:27017/healthcare';
 mongoose
     .connect(MONGO_URI)
     .then(() => console.log('Connected to MongoDB'))
