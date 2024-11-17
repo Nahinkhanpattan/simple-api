@@ -27,8 +27,8 @@
 <section>
     <h2>Installation</h2>
     <h3>1. Clone the Repository</h3>
-    <pre><code>git clone https://github.com/username/healthcare-api.git 
-cd healthcare-api</code></pre>
+    <pre><code>git clone https://github.com/Nahinkhanpattan/simple-api.git
+cd simple-api</code></pre>
     <h3>2. Install Dependencies</h3>
     <pre><code>npm install</code></pre>
     <h3>3. Start the Server</h3>
